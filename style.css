@@ -6,6 +6,9 @@ body{
     margin: 0;
     
 }
+img{
+    max-width: 100%;
+}
 
 .container{
     width: 100% ;
@@ -27,14 +30,14 @@ body{
     
 }
 .menu-logo{
-    width: 15%;
+    width: 40%;
     height: 80px;
     margin-top: 10px;
     /* background-color: red; */
 }
 .menu-logo img{
     object-fit: cover;
-    width: 26%;
+    width: 30%;
     height: 70%;
 }
 .menu-1{
@@ -117,13 +120,25 @@ body{
     gap: 30px;
     cursor: pointer;
 
+
 }
+/* .box1 ul{
+    list-style: none;
+    text-decoration: none;
+    margin-top: 30px;
+    
+} */
 .box1 p{
     font-size: 20px;
     text-align: center;
     margin-top: 30px;
 
 }
+
+   
+
+
+
 .box1:hover{
  background-color: white;
 }
@@ -350,13 +365,22 @@ body{
 .skill1{
     width: 100%;
     height: 350px;
-    margin-top: 12%;
-    
-    /* background-color: rebeccapurple; */
 }
+
+
+.frontent h3{
+    font-size: 25px;
+    float: right;
+    margin-right: 20px;
+}
+
+
+
+
 .skill1 p{
     font-size: 20px;
     margin-left: 60%;
+    margin-top: 10%;
 
 }
 .backend h3{
@@ -542,17 +566,24 @@ body{
 .contact-text{
     width: 40%;
     height: 600px;
-    background-color: #E33500;
+    /* background-color: #E33500; */
+    margin-left: 100px;
 
 
 }
 
 .contact-text h1{
     font-size: 30px;
+    margin-top: 40px;
+}
+.contact-text h3{
+    font-size: 15px;
+    margin-left: 20%;
+
 }
 .contact-text p{
     font-size: 20px;
-    margin-left: 50px ;
+    margin-left: 20% ;
     
 }
 .contact-box{
@@ -575,9 +606,9 @@ body{
   border-radius: 8px;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
   width: 530px;
-  height: 450px;
+  height: 400px;
   margin: auto;
-  margin-top: 6%;
+  margin-top: 8%;
 }
 
 .contact-form {
@@ -593,20 +624,27 @@ body{
   width: 99%;
  
 }
+.submit {
+    width: 100%;
+    background-color: #0e9adb;
+    cursor: pointer;
+}
+
+
 
 input, textarea {
-  width: 95%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  font-size: 14px;
-  outline: none;
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    outline: none;
 }
 
 
 input:focus, textarea:focus {
-  border-color: #1834d8;
-  box-shadow: 0 0 2px #0d4b74;
+    border-color: #1834d8;
+    box-shadow: 0 0 2px #0d4b74;
 }
 
 
@@ -625,4 +663,47 @@ button {
 button:hover {
   background-color: #686ada;
 
+}
+
+footer {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    border-top: 1px solid #ccc;
+ }
+
+footer div {
+    margin: 8px 0;
+}
+
+.footer-title {
+    font-weight: bold;
+}
+
+.social a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+ }
+    
+.social i{
+    font-size: 20px;
+    color: black;
+}
+
+
+.social a:hover {
+    color: #0073b1; 
+ }
+
+
+.copyright {
+    color: #777;
+    font-size: 12px;
+    display: flex;
+    margin-top: 10px;
 }
