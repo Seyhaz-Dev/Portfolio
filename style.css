@@ -4,6 +4,7 @@ body{
     font-family: 'Times New Roman', Times, serif;
     max-width: 100%;
     margin: 0;
+    scroll-behavior: smooth;
     
 }
 img{
@@ -122,21 +123,21 @@ img{
 
 
 }
-/* .box1 ul{
+.box1 ul a{
     list-style: none;
     text-decoration: none;
-    margin-top: 30px;
     
+    
+}
+/* .box1 ul a p{
+    margin-top: 40%;
+    margin-right: 80px;
 } */
-.box1 p{
+.box1 ul a p{
     font-size: 20px;
-    text-align: center;
-    margin-top: 30px;
+    margin-top: 35px;
 
 }
-
-   
-
 
 
 .box1:hover{
@@ -155,7 +156,32 @@ img{
     cursor: pointer;
 
 }
+.box2 ul a{
+    list-style: none;
+    text-decoration: none;
+    
+    
+}
+/* .box1 ul a p{
+    margin-top: 40%;
+    margin-right: 80px;
+} */
+.box ul a p{
+    font-size: 20px;
+    margin-top: 35px;
+
+}
 .box2 p{
+    font-size: 20px;
+    text-decoration: none;
+    
+    
+}
+/* .box1 ul a p{
+    margin-top: 40%;
+    margin-right: 80px;
+} */
+.box ul a p{
     font-size: 20px;
     text-align: center;
     margin-top: 50px;
